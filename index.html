@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 Training ARC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <section id="local-api">
+            <h2>APII APII 🔥🔥</h2>
+            <button onclick="fetchLocalData()">Ambil Data</button>
+            
+            <h3>Tambah Item Baru</h3>
+            <form id="add-item-form">
+                <label for="item-name">Nama Item :</label>
+                <input type="text" id="item-name" required><br><br>
+        
+                <label for="item-price">Harga :</label>
+                <input type="text" id="item-price" required><br><br>
+        
+                <label for="item-stock">Stok :</label>
+                <input type="number" id="item-stock" required><br><br>
+        
+                <button type="submit">Tambah Item</button>
+            </form>
+        
+            <pre id="local-data"></pre>
+        </section>
+        
+        
+        
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
